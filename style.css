@@ -1,4 +1,127 @@
+* {
+	font-family:Courier New;
+}
+
 body {
 
-background-color: lightblue;
+background-color: #f0f5f5;
+margin:  0px;
+}
+
+header {
+
+background-color: #c8eade;
+height: 65px;
+
+}
+
+h1 {
+
+position: relative;
+top: 5px;
+left: 10px;
+margin-top: 0px;
+font-size: 3em;
+
+
+}
+
+a {
+
+	text-decoration: none;
+	color: black;
+}
+
+.internal-links {
+	font-weight: bold;
+	margin-left: 15px;
+
+}	
+
+.quote {
+	font-style:italic;
+	text-align: center;
+	margin: 0px;
+}
+
+
+h2{
+
+	text-align: center;
+	text-shadow: 1px 1px 1px grey;
+	font-size: 2em;
+	margin-bottom: 0px;
+}
+
+#Favoriteplants {
+
+height: 500px;
+width: 100%;
+background-color: white;
+
+
+
+}
+
+.plantpicture {
+
+position: relative;
+top: 50px;
+left: 30px;
+margin: 10px;
+box-shadow: 7px 7px 5px grey;
+
+}
+
+
+
+h4 {
+	font-size: 16px;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+}
+
+.Contact {
+
+	position: fixed; bottom: 25px; right: 0px;
+	background-color: #c8eade;
+	font-size: 12px;
+	height: 75px;
+	width: 220px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+div {
+	margin-left: 5px;
+	
+
+}
+
+.footer1 {
+
+	text-align: center;
+	background-color: white;
+	padding: 10px;
+	margin: 150px 200px 35px 200px;
+
+}
+.blogphoto {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 250px;
+	box-shadow: 5px 5px 5px grey;
+
+}
+
+.blogtext {
+
+	background-color: white;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 65px;
+	width: 75%;
 }

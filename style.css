@@ -32,11 +32,19 @@ a {
 	color: black;
 }
 
+
+.internal-links-box {
+	position: absolute; top: 40px; right: 15px;
+
+}
+
 .internal-links {
 	font-weight: bold;
 	margin-left: 15px;
 
 }	
+
+
 
 .quote {
 	font-style:italic;
@@ -124,4 +132,24 @@ div {
 	margin-right: auto;
 	margin-top: 65px;
 	width: 75%;
+}
+
+.flex-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     align-items: center;
+     align-content: space-between;
+}
+
+#profile-photo {
+	width: 400px;
+	display: block;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	box-shadow: 5px 5px 5px grey;
+
 }
